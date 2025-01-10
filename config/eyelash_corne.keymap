@@ -53,12 +53,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&kp RIGHT_ALT>,
                 <&macro_press>,
-                <&sk RIGHT_ALT>,
-                <&macro_tap>,
                 <&kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_1>,
-                <&macro_release>,
-                <&kp RALT>;
+                <&macro_tap>,
+                <&kp RALT>,
+                <&macro_release>;
 
             label = "INTEROGACION_APERTURA";
         };
@@ -67,12 +67,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
                 <&kp RIGHT_ALT>,
-                <&macro_tap>,
+                <&macro_press>,
                 <&kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_1>,
-                <&macro_release>,
-                <&kp RALT>;
+                <&macro_tap>,
+                <&kp RALT>,
+                <&macro_release>;
 
             label = "EXCLAMACION_APERTURA";
             wait-ms = <0>;
