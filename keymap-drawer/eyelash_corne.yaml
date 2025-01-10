@@ -1,5 +1,5 @@
 layers:
-  QWERTY:
+  Dvarjx:
   - $$mdi:keyboard-tab$$
   - {t: '''', s: '"'}
   - {t: ',', s: <}
@@ -30,9 +30,9 @@ layers:
   - '?'
   - $$mdi:apple-keyboard-control$$
   - {t: ;, s: ':'}
-  - X
+  - Q
   - J
-  - V
+  - K
   - X
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
@@ -44,7 +44,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: QWERTY}
+  - {t: '$$mdi:keyboard-space$$', h: Dvarjx}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
