@@ -1,5 +1,5 @@
 layers:
-  Dvarjx:
+  Dvorak:
   - $$mdi:keyboard-tab$$
   - {t: '''', s: '"'}
   - {t: ',', s: <}
