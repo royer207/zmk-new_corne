@@ -56,7 +56,7 @@
                 <&macro_press>,
                 <&kp RIGHT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_1>,
+                <&kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_8>,
                 <&macro_release>,
                 <&kp RALT>;
 
@@ -70,7 +70,7 @@
                 <&macro_press>,
                 <&kp RIGHT_ALT>,
                 <&macro_tap>,
-                <&kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_1>,
+                <&kp KP_NUMBER_1 &kp KP_NUMBER_7 &kp KP_NUMBER_3>,
                 <&macro_release>,
                 <&kp RALT>;
 
