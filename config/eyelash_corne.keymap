@@ -53,15 +53,16 @@
         interogacion_apertura: interogacion_apertura {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt RIGHT_ALT &kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_8 &kt RIGHT_ALT>;
+            bindings = <&kp RALT &kp KP_NUMBER_1 &kp KP_NUMBER_9 &kp KP_NUMBER_1 &kt RIGHT_ALT>;
             label = "INTEROGACION_APERTURA";
         };
 
         exclamacion_apertura: exclamacion_apertura {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp KP_NUMBER_1 &kp KP_NUMBER_7 &kp KP_NUMBER_3 &kt RIGHT_ALT>;
+            bindings = <&kt RIGHT_ALT &kp KP_NUMBER_1 &kp KP_NUMBER_6 &kp KP_NUMBER_1 &kp RIGHT_ALT>;
             label = "EXCLAMACION_APERTURA";
+            wait-ms = <0>;
         };
     };
 
