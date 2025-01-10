@@ -69,11 +69,11 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "Dvarjx";
             bindings = <
 &kp TAB    &kp SQT        &kp COMMA  &kp PERIOD  &kp P  &kp Y                               &kp UP                &kp F        &kp G  &kp C     &kp R  &kp L  &kp BSPC
 &td0       &kp A          &kp O      &kp E       &kp U  &kp I                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp D        &kp H  &kp T     &kp N  &kp S  &kp QMARK
-&kp LCTRL  &kp SEMICOLON  &kp X      &kp J       &kp V  &kp X        &kp SPACE              &kp DOWN              &kp B        &kp M  &kp W     &kp V  &kp Z  &kp ESC
+&kp LCTRL  &kp SEMICOLON  &kp Q      &kp J       &kp K  &kp X        &kp SPACE              &kp DOWN              &kp B        &kp M  &kp W     &kp V  &kp Z  &kp ESC
                                      &kp LGUI    &mo 1  &lt 0 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
