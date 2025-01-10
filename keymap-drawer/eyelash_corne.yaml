@@ -1,46 +1,46 @@
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
   - P
+  - Y
+  - $$mdi:arrow-up-bold$$
+  - F
+  - G
+  - C
+  - R
+  - L
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
-  - S
-  - D
-  - F
-  - G
+  - O
+  - E
+  - U
+  - I
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
+  - D
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - T
+  - N
+  - S
+  - '?'
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - {t: ;, s: ':'}
   - X
-  - C
+  - J
   - V
-  - B
+  - X
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
+  - B
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - W
+  - V
+  - Z
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
